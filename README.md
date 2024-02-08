@@ -30,7 +30,7 @@ CURL
 
 ```bash
 curl -X 'POST' \
-  'http://a4000box.jkdf.win:3000/generate' \
+  'http://localhost:3000/generate' \
   -H 'accept: */*' \
   -H 'Content-Type: multipart/form-data' \
   -F 'image=@assets/sample.png;type=image/png' \
